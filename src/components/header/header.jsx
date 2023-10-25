@@ -43,7 +43,7 @@ export default function Header({conteudo, path}) {
     return(
         <HeaderStyle>
             <Logo src="/logoQuiz.png"></Logo>
-            <Link href={path}>{conteudo}</Link>
+            {/* <Link href={path}>{conteudo}</Link> */}
         </HeaderStyle>
     )
 }
