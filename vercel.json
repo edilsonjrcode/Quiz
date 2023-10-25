@@ -1,4 +1,5 @@
-{ "rewrites": [
-    { "source": "/", "destination": "./pages/Home" },
-    { "source": "/questionsJs", "destination": "./pages/Questions/QuestJs" }
-] }
+{
+    "rewrites":  [
+        {"source": "/(.*)", "destination": "/"}
+    ]
+}
