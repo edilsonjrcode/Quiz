@@ -8,7 +8,7 @@ import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import ButtonHome from '../../components/buttons/buttonHome';
 import './style.css'
-import HeaderHomer from "../../components/header/headerHome";
+import HeaderHome from "../../components/header/headerHome";
 
 export const indexMenu = [0]
 
@@ -27,7 +27,7 @@ const Home = () => {
     <>
     <div id='home'>
       <Container> 
-        <HeaderHomer conteudo={"Sobre"}/>
+        <HeaderHome conteudo={"Sobre"}/>
 
         <Container2>
           <Titulo>Escolha uma das opções abaixo e veja quantas perguntas você consegue responder corretamente entre 6 alternativas:</Titulo>
@@ -54,7 +54,7 @@ const Home = () => {
               />
             <Categories 
               title={"Html"} 
-              description={"Área da programação que se dedica a criar a parte visual e interativa de um site"} 
+              description={"Linguagem de marcação que dá o significado e a estrutura do conteúdo da web."} 
               logo={<SiHtml5/>}
               color={"#ff2f1c"}
               indice={2}
